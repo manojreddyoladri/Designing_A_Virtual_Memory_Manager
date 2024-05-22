@@ -10,8 +10,8 @@ In this project we implemented a virtual memory manager. This problem actually c
 **Program Specification**
 
 - The program should accept the following command line parameters"
-  - 1^{st} parameter: a file representing the “backing store” - a generic term for storage not in memory.
-  - 2^{nd} parameter: a file containing addresses you will access.
+  - 1st parameter: a file representing the “backing store” - a generic term for storage not in memory.
+  - 2nd parameter: a file containing addresses you will access.
 
 - And Part 1 will be run as:
   ```sh
@@ -19,7 +19,7 @@ In this project we implemented a virtual memory manager. This problem actually c
   ```
 
 - For Part 2, the program need to accept an additional parameter:
-  - 3^{rd} parameter: page replacement algorithm indication, either `fifo` or `lru`.
+  - 3rd parameter: page replacement algorithm indication, either `fifo` or `lru`.
 - Part 2 will be run as:
   ```sh
   ./part2 BACKING_STORE.bin <address file> <strategy>
